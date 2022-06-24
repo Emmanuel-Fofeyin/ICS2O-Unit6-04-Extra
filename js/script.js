@@ -13,22 +13,23 @@ if (navigator.serviceWorker) {
   })
 }
 
-"use strict"
+;("use·strict")
 
-window.onload = function() {
+window.onload = function () {
   // this calculates area of a rectangle
-
-  const params = new URLSearchParams(document.location.search)
+  
+const params = new URLSearchParams(document.location.search)
   
   // input
   const base = params.get("b")
   const height = params.get("h")
 
   // process
-  const area = base * height
+  const area = base * height / 2
   const dimensions = "<ul>\n<li>a = " + base + "</li>\n<li>b = " + height
 
   // output
   document.getElementById("dimensions").innerHTML = dimensions
-  document.getElementById('area').innerHTML = "Area is: " + area.toFixed(2) + " cm²"
+  document.getElementById("area").innerHTML =
+    "Area is: " + area.toFixed(2) + " cm²"
 }
