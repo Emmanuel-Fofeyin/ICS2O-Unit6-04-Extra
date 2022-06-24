@@ -13,7 +13,7 @@ if (navigator.serviceWorker) {
   })
 }
 
-;("use·strict")
+;("use strict")
 
 window.onload = function () {
   // this calculates area of a rectangle
