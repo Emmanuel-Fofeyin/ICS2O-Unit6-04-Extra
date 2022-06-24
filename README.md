@@ -1,4 +1,4 @@
-# ICS2O-PWA-Template-HTML
+# ICS2O-Unit6-04-Extra
 
 [![GitHub's Super Linter](https://github.com/Emmanuel-Fofeyin/ICS2O-Unit6-04-Extra/workflows/GitHub's%20Super%20Linter/badge.svg)](https://github.com/Emmanuel-Fofeyin/ICS2O-Unit6-04-Extra/actions)
 
