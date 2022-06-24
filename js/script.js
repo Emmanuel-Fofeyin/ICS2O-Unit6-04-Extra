@@ -21,8 +21,8 @@ window.onload = function () {
 const params = new URLSearchParams(document.location.search)
   
   // input
-  const base = params.get("b")
-  const height = params.get("h")
+  const base = params.get("a")
+  const height = params.get("b")
 
   // process
   const area = base * height / 2
