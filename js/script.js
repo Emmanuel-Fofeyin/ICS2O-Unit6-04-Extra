@@ -16,16 +16,15 @@ if (navigator.serviceWorker) {
 ;("use strict")
 
 window.onload = function () {
-  // this calculates area of a rectangle
-  
+  // this calculates area of a rectangle  
 const params = new URLSearchParams(document.location.search)
-  
+
   // input
   const base = params.get("a")
   const height = params.get("b")
 
   // process
-  const area = base * height / 2
+  const area = (base * height) / 2
   const dimensions = "<ul>\n<li>a = " + base + "</li>\n<li>b = " + height
 
   // output
