@@ -16,7 +16,8 @@ if (navigator.serviceWorker) {
 ;("use strict")
 
 window.onload = function () {
-  // this calculates area of a rectangle  
+  // this calculates area of a rectangle
+  
 const params = new URLSearchParams(document.location.search)
 
   // input
